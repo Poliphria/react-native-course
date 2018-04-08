@@ -40,7 +40,7 @@ export default class AddContactForm extends React.Component {
       <View style={styles.container}>
         <TextInput
           style={styles.input}
-          value={this.state.name}
+          value={this.state.name
           onChangeText={this.handleNameChange}
           placeholder="Name"
         />
